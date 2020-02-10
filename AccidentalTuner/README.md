@@ -1,0 +1,1 @@
+This is a fix of the [AccidentalTuner plugin](https://musescore.org/en/project/accidental-tuner/). Clearing the list of accidentals using `pop()` in a loop was a bad idea. :wink:

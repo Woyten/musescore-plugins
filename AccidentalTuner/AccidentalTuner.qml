@@ -1426,8 +1426,7 @@ MuseScore {
 					if (cursor.element && cursor.element.type == Element.BAR_LINE){
 						//empty accidentals vector in each measure
 						//console.log("Barline found");
-						for (var i=0;i<acc.length;i++)
-							acc.pop();
+						acc = []
 					}
                               
 					if (cursor.element && cursor.element.type == Element.CHORD ){
